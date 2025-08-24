@@ -138,7 +138,9 @@ E-commerce/
 
 ## 🌐 Live Demo
 
-**Frontend:** Deploy to GitHub Pages, Netlify, or Vercel
+**🔗 Live Website:** https://mehar-mex.github.io/E-commerece
+
+**Frontend:** Deployed on GitHub Pages
 **Backend:** Deploy to Heroku, Railway, or Render
 
 ### Deploy Frontend to GitHub Pages:
