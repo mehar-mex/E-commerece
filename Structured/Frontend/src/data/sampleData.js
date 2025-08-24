@@ -1,50 +1,92 @@
 export const sampleProducts = [
   {
     _id: '1',
-    name: 'Premium Cotton T-Shirt',
-    price: 1299,
-    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400',
-    category: 'clothing',
-    description: 'Comfortable premium cotton t-shirt'
+    name: 'Designer Dress',
+    description: 'Beautiful designer dress perfect for any occasion',
+    price: 1299.99,
+    image: '/uploads/image/image1.jpg',
+    category: 'Dress',
+    stock: 10
   },
   {
-    _id: '2', 
-    name: 'Wireless Headphones',
-    price: 2999,
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400',
-    category: 'electronics',
-    description: 'High-quality wireless headphones'
+    _id: '2',
+    name: 'Elegant Evening Gown',
+    description: 'Stunning evening gown for special occasions',
+    price: 1899.99,
+    image: '/uploads/image/image2.jpg',
+    category: 'Dress',
+    stock: 8
   },
   {
     _id: '3',
-    name: 'Running Shoes',
-    price: 3499,
-    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400',
-    category: 'footwear',
-    description: 'Comfortable running shoes'
+    name: 'Casual Summer Dress',
+    description: 'Light and comfortable dress for summer days',
+    price: 849.99,
+    image: '/uploads/image/image3.webp',
+    category: 'Dress',
+    stock: 15
   },
   {
     _id: '4',
-    name: 'Smart Watch',
-    price: 8999,
-    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400',
-    category: 'electronics',
-    description: 'Feature-rich smart watch'
+    name: 'Silk Saree Collection',
+    description: 'Premium silk saree with intricate designs',
+    price: 1589.99,
+    image: '/uploads/image/image5.webp',
+    category: 'Saree',
+    stock: 6
   },
   {
     _id: '5',
     name: 'Denim Jacket',
-    price: 2499,
-    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400',
-    category: 'clothing',
-    description: 'Classic denim jacket'
+    description: 'Classic denim jacket for casual wear',
+    price: 979.99,
+    image: '/uploads/image/image6.avif',
+    category: 'Jacket',
+    stock: 20
   },
   {
     _id: '6',
-    name: 'Backpack',
-    price: 1899,
-    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400',
-    category: 'accessories',
-    description: 'Durable travel backpack'
+    name: 'Pleated Mini Skirt',
+    description: 'Trendy pleated skirt perfect for young fashion',
+    price: 645.99,
+    image: '/uploads/image/image7.jpg',
+    category: 'Skirt',
+    stock: 18
+  },
+  {
+    _id: '7',
+    name: 'Crop Top Set',
+    description: 'Stylish crop top with matching accessories',
+    price: 535.99,
+    image: '/uploads/image/image8.webp',
+    category: 'Top',
+    stock: 25
+  },
+  {
+    _id: '8',
+    name: 'A-Line Skirt',
+    description: 'Classic A-line skirt suitable for any occasion',
+    price: 752.99,
+    image: '/uploads/image/image11.webp',
+    category: 'Skirt',
+    stock: 21
+  },
+  {
+    _id: '9',
+    name: 'Bomber Jacket',
+    description: 'Trendy bomber jacket for street style fashion',
+    price: 1195.99,
+    image: '/uploads/image/image22.avif',
+    category: 'Jacket',
+    stock: 16
+  },
+  {
+    _id: '10',
+    name: 'Wrap Dress',
+    description: 'Flattering wrap dress that suits all body types',
+    price: 1008.99,
+    image: '/uploads/image/image33.jpg',
+    category: 'Dress',
+    stock: 12
   }
 ];
