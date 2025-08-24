@@ -1,19 +1,41 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import axios from 'axios';
+import { sampleProducts } from '../data/sampleData';
 
 export const fetchProducts = createAsyncThunk(
   'products/fetchProducts',
   async ({ search = '', category = '' } = {}) => {
-    const response = await axios.get(`/api/products?search=${search}&category=${category}`);
-    return response.data;
+    // Simulate API delay
+    await new Promise(resolve => setTimeout(resolve, 500));
+    
+    let filteredProducts = sampleProducts;
+    
+    if (search) {
+      filteredProducts = filteredProducts.filter(product => 
+        product.name.toLowerCase().includes(search.toLowerCase())
+      );
+    }
+    
+    if (category) {
+      filteredProducts = filteredProducts.filter(product => 
+        product.category === category
+      );
+    }
+    
+    return filteredProducts;
   }
 );
 
 export const fetchProductById = createAsyncThunk(
   'products/fetchProductById',
   async (id) => {
-    const response = await axios.get(`/api/products/${id}`);
-    return response.data;
+    // Simulate API delay
+    await new Promise(resolve => setTimeout(resolve, 300));
+    
+    const product = sampleProducts.find(p => p._id === id);
+    if (!product) {
+      throw new Error('Product not found');
+    }
+    return product;
   }
 );
 
