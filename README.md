@@ -4,6 +4,11 @@ Welcome to MemuStore - Your Premium Fashion Destination
 
 A full-stack e-commerce application built with React, Node.js, and MongoDB.
 
+## 📂 Quick Navigation
+- [Backend Code](./Structured/Backend/) - Node.js/Express API
+- [Frontend Code](./Structured/Frontend/) - React Application
+- [Sample Data](./sampleProducts.js) - Product seed data
+
 ## 🚀 Features
 
 - ✅ User Authentication (Register/Login)
