@@ -136,6 +136,26 @@ E-commerce/
 - `POST /api/payment/create-order` - Create Razorpay order
 - `POST /api/payment/verify` - Verify payment
 
+## 🌐 Live Demo
+
+**Frontend:** Deploy to GitHub Pages, Netlify, or Vercel
+**Backend:** Deploy to Heroku, Railway, or Render
+
+### Deploy Frontend to GitHub Pages:
+```bash
+cd Structured/Frontend
+npm install gh-pages --save-dev
+npm run deploy
+```
+
+### Deploy Backend to Heroku:
+```bash
+cd Structured/Backend
+# Install Heroku CLI, then:
+heroku create your-app-name
+git push heroku main
+```
+
 ## 🎨 Screenshots
 
 *Add screenshots of your application here*
